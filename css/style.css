@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    
+  }
+body{
+  color: #9e9e9e;
+}
+h1,h2,h3,h4,h5,h6{
+  color: #333;
+}
+  .video-area-bg{
+    background-image: url("img/monitorpg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+  }
+  .check-icon li::before{
+    font-family: fontAwesome;
+    content: "\f00c";
+  }
+
+.video-area{
+  position: relative;
+  padding: 80px 0;
+}
+.video-area-bg{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 40%;
+  height: 100%;
+  box-shadow: 0 0 20px #999;
+}
+.video-area-bg a{
+  z-index: 3;
+}
+.video-play-btn{
+  position: absolute;
+  right: -30px;
+  top: 50%;
+  height: 60px;
+  width: 60px;
+  background: #1fa463;
+  display: inline-block;
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  line-height: 60px;
+  border-radius: 50%;
+  padding-left: 8px;
+  margin-top: -50px;
+}
+ul.check-icon{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 16px;
+  color: #666;
+
+}
+.check-icon li{
+  position: relative;
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+.check-icon li::before{
+  position: absolute;
+  color: #1fa463;
+  left: 0;
+  top: 2%;
+}
